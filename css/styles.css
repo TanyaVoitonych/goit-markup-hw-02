@@ -21,9 +21,6 @@ address {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
     border: 0;
     padding: 0;
@@ -156,7 +153,9 @@ color: #404BBF;
     color: #2E2F42;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF;
+}
 
 .team-item {}
 
