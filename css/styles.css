@@ -140,7 +140,7 @@ color: #404BBF;
 /*----------TEAM----------*/
 
 .team {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -153,11 +153,11 @@ color: #404BBF;
     color: #2E2F42;
 }
 
-.team-list {
+.team-list {}
+
+.team-item {
     background-color: #FFFFFF;
 }
-
-.team-item {}
 
 .team-image {}
 
