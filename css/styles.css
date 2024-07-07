@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
 }
 
 ul {
@@ -32,12 +34,13 @@ address {
 /*----------HEADER----------*/
 
 .header-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4D5AE5;
 }
 
 .header-logo-text {
@@ -47,7 +50,7 @@ address {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .header-menu-link {
@@ -58,11 +61,19 @@ address {
     color: #2E2F42;
 }
 
+.header-menu-link:is(:hover, :focus) {
+color: #404BBF;
+}
+
 .header-address-link {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.header-address-link:is(:hover,:focus) {
+    color: #404BBF;
 }
 
 /*---------- ----------*/
@@ -96,6 +107,12 @@ address {
     background: #4D5AE5;
 }
 
+.hero-btn:is(:hover, :focus) {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #404BBF;
+    color: #FFFFFF;
+}
+
 /*---------- ----------*/
 
 /*----------BENEFITS----------*/
@@ -125,9 +142,12 @@ address {
 
 /*----------TEAM----------*/
 
-.team {}
+.team {
+    background-color: #F4F4FD;
+}
 
 .team-title {
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -143,6 +163,7 @@ address {
 .team-image {}
 
 .team-subtitle {
+    background-color: #FFFFFF;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -152,6 +173,7 @@ address {
 }
 
 .team-item-text {
+    background-color: #FFFFFF
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -166,6 +188,7 @@ address {
 .portfolio {}
 
 .portfolio-title {
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -202,12 +225,13 @@ address {
 }
 
 .footer-logo-link {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: #4D5AE5;
 }
 
 .footer-logo-text {
@@ -217,7 +241,7 @@ address {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: #F4F4FD;
 }
 
 .footer-text {
